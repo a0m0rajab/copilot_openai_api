@@ -1,0 +1,45 @@
+/* make the body in the middle of the screen */
+body {
+    background-color: #d1d1d1;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    width: 350px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: left;
+}
+
+/* make the user input with id= usermsg with as 80% */
+#usermsg {
+    width: 60%;
+}
+
+.chatGPT {
+    background: #fbffd8;
+}
+
+#chatlogs{
+    background-color: #fbffd8;
+    border: 1px yellow solid;
+    height: 80vh;
+    overflow: auto;
+    width: 100%;
+    
+}
+
+#chatbox{
+    border: 1px yellow solid;
+}
+
+.user {
+    background: #e9fbf7;
+}
